@@ -6,11 +6,11 @@ import tseslint from 'typescript-eslint';
 export default [
   {
     ignores: ['dist/'], // Ignore specific directories or files
-    extends: [
-      'eslint:recommended', // ESLint's recommended rules
-      'plugin:@typescript-eslint/recommended', // TypeScript recommended rules
-      'plugin:prettier/recommended', // Add Prettier's recommended rules
-    ],
+    // extends: [
+    //   'eslint:recommended', // ESLint's recommended rules
+    //   'plugin:@typescript-eslint/recommended', // TypeScript recommended rules
+    //   'plugin:prettier/recommended', // Add Prettier's recommended rules
+    // ],
   },
 
   {
